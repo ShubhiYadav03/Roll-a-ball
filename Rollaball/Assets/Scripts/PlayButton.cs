@@ -21,13 +21,13 @@ public class PlayButton : MonoBehaviour
         player.SetActive(true);
         canvas.SetActive(false);
     }
-    public void soundPanel()
-    {
-        home.SetActive(false);
-        Volume.SetActive(true);
-    }
+    // public void soundPanel()
+    // {
+    //     home.SetActive(false);
+    //     Volume.SetActive(true);
+    // }
 
-    void doExitGame()
+    public void doExitGame()
     {
         Application.Quit();
     }
