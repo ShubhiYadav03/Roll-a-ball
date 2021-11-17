@@ -10,6 +10,8 @@ public class PlayButton : MonoBehaviour
     public TextMeshProUGUI winText;
     public GameObject canvas;
     public GameObject player;
+    public GameObject Volume;
+    public GameObject home;
 
     // Start is called before the first frame update
     public void getValue()
@@ -18,5 +20,15 @@ public class PlayButton : MonoBehaviour
         winText.text = $"Congrats {user}!\n You Win!!";
         player.SetActive(true);
         canvas.SetActive(false);
+    }
+    public void soundPanel()
+    {
+        home.SetActive(false);
+        Volume.SetActive(true);
+    }
+
+    void doExitGame()
+    {
+        Application.Quit();
     }
 }
