@@ -140,21 +140,19 @@ Go to your browser and type http://127.0.0.1:5000/ in the address bar.
 Recommendation engines need to know you better to be effective with their suggestion. Therefore, the information they collect and integrate is a critical aspect of the process. This can be information relating to explicit interactions, for example, information about your past activity, your ratings, reviews and other information about your profile, such as gender, age, or investment objectives. These can combine with implicit interactions such as the device you use for access, clicks on a link, location, and dates.
 
 ### Content-Based filtering
----
 
 Content-based filtering is a type of recommender system that attempts to guess what a user may like based on that user’s activity.
 
 Content-based filtering makes recommendations by using keywords and attributes assigned to objects in a database (e.g., items in an online marketplace) and matching them to a user profile. The user profile is created based on data derived from a user’s actions, such as purchases, ratings (likes and dislikes), downloads, items searched for on a website and/or placed in a cart, and clicks on product links.
 
 ### Similarity Score
----
 
 The system decide which item is most similar to the item user likes through the similarity scores.
    
 It is a numerical value ranges between zero to one which helps to determine how much two items are similar to each other on a scale of zero to one. This similarity score is obtained measuring the similarity between the text details of both of the items. So, similarity score is the measure of similarity between given text details of two items. This can be done by cosine-similarity.
    
 ### How Cosine Similarity works?
----
+
 Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity.
 <br/>
   
@@ -164,7 +162,6 @@ Cosine similarity is a metric used to measure how similar the documents are irre
 More about Cosine Similarity : [Understanding the Math behind Cosine Similarity](https://www.machinelearningplus.com/nlp/cosine-similarity/)
 
 ### Sources of the datasets 
----
 
 1. [IMDB 5000 Movie Dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 2. [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
